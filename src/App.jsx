@@ -16,13 +16,13 @@ function App() {
 
     return (
         <>
-            <div className='flex  h-dvh w-full justify-center items-center'>
+            <div className='flex  h-svh w-full justify-center items-center'>
               {/**Hero page */}
                 <Header handleNavBar={handleNavBar} />
                 <Landing view={view} />
                 <SideBar view={view} handleNavBar={handleNavBar}/>
             </div>
-            <div className='flex  h-dvh w-full justify-center items-center'>
+            <div className='flex  h-svh w-full justify-center items-center'>
                 <About view={view}/>
             </div>
         </>
