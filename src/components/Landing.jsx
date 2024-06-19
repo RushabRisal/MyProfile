@@ -1,6 +1,6 @@
 const Landing = ({view}) => {
     return ( 
-        <div className={`${view? "blur-md":"blur-none"} container  mx-auto flex flex-col md:flex-row`}>
+        <div className={`${view? "blur-md":"blur-none"} container transition duration-500 ease-in-out   mx-auto flex flex-col md:flex-row`}>
             <div className="w-full h-full flex justify-center items-center">
                 <img src="../src/image/rushabcrop.jpg" alt="rushab" className="h-52  w-52 md:w-72 md:h-72 drop-shadow-2xl"/>
             </div>
